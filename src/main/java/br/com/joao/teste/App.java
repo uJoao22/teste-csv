@@ -9,6 +9,7 @@ import java.util.Map;
 import com.opencsv.CSVReader;
 
 import br.com.joao.teste.dto.CepDTO;
+import br.com.joao.teste.model.TabelaIMC;
 import br.com.joao.teste.util.HttpUtil;
 import br.com.joao.teste.util.Util;
 

@@ -1,4 +1,4 @@
-package br.com.joao.teste;
+package br.com.joao.teste.type;
 
 public enum FaixaImc {
 	MAGREZA(0),

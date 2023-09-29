@@ -1,7 +1,9 @@
-package br.com.joao.teste;
+package br.com.joao.teste.model;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.joao.teste.type.FaixaImc;
 
 public class TabelaIMC {
 	private int quantidadeMagreza;
