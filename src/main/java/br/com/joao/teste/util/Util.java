@@ -4,14 +4,14 @@ public class Util {
     public static String formatPessoa(String[] dados) {
     	String format = "";
 
-    	if (!isNullOrEmpty(dados[0])) format += "Name: " + dados[0];
-    	if (!isNullOrEmpty(dados[1])) format += ", Surname: " + dados[1];
-    	if (!isNullOrEmpty(dados[2])) format += ", Function: " + dados[2];
-    	if (!isNullOrEmpty(dados[3])) format += ", Company: " + dados[3];
-    	if (!isNullOrEmpty(dados[4])) format += ", Vehicle: " + dados[4];
-    	if (!isNullOrEmpty(dados[5])) format += ", Weight: " + dados[5];
-    	if (!isNullOrEmpty(dados[6])) format += ", Height: " + dados[6];
-    	if (!isNullOrEmpty(dados[7])) format += ", Postal_code: " + dados[7];
+    	if (!isNullOrEmpty(dados[0])) format += "Nome: " + dados[0];
+    	if (!isNullOrEmpty(dados[1])) format += ", Sobrenome: " + dados[1];
+    	if (!isNullOrEmpty(dados[2])) format += ", Função: " + dados[2];
+    	if (!isNullOrEmpty(dados[3])) format += ", Empresa: " + dados[3];
+    	if (!isNullOrEmpty(dados[4])) format += ", Veículo: " + dados[4];
+    	if (!isNullOrEmpty(dados[5])) format += ", Peso: " + dados[5] + " kg";
+    	if (!isNullOrEmpty(dados[6])) format += ", Altura: " + dados[6] + " cm";
+    	if (!isNullOrEmpty(dados[7])) format += ", CEP: " + dados[7];
     	
     	format += ".";
     	

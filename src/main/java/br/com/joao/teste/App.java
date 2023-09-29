@@ -108,7 +108,7 @@ public class App {
     }
     
     private static void imprimePopulacaoCidade(Map<String, Integer> cidades) {
-    	System.out.print("\n");
+    	System.out.print("\nCidade - UF: Quantidade de habitantes\n");
     	
     	for (Map.Entry<String, Integer> pair : cidades.entrySet())
     		System.out.println(pair.getKey() + ": " + pair.getValue() + (pair.getValue() == 1 ? " pessoa." : " pessoas."));

@@ -58,12 +58,12 @@ public class TabelaIMC {
 	
 	public void imprimeDados() {
 		System.out.println(String.format("\n%s pessoas estão na faixa da %s.", quantidadeMagreza, FaixaImc.MAGREZA.getLabel()));
-		System.out.println(String.format("%s pessoas estão na faixa da %s.", quantidadeNormal, FaixaImc.NORMAL.getLabel()));
-		System.out.println(String.format("%s pessoas estão na faixa da %s.", quantidadeSobrepeso, FaixaImc.SOBREPESO.getLabel()));
+		System.out.println(String.format("%s pessoas estão na faixa %s.", quantidadeNormal, FaixaImc.NORMAL.getLabel()));
+		System.out.println(String.format("%s pessoas estão na faixa de %s.", quantidadeSobrepeso, FaixaImc.SOBREPESO.getLabel()));
 		System.out.println(String.format("%s pessoas estão na faixa da %s.", quantidadeObesidade, FaixaImc.OBESIDADE.getLabel()));
 		System.out.println(String.format("%s pessoas estão na faixa da %s.", quantidadeObesidadeGrave, FaixaImc.OBESIDADE_GRAVE.getLabel()));
 		
     	System.out.println("\nNome e sobrenome " + (pessoasObesas.size() == 1 ? "da pessoa obesa:" : "das pessoas obesas:"));
-    	System.out.println(pessoasObesas.toString().substring(1, pessoasObesas.toString().length() - 1));
+    	System.out.println(pessoasObesas.toString().substring(1, pessoasObesas.toString().length() - 1) + ".");
 	}
 }
